@@ -31,8 +31,8 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/Maria-cpp/chatbot-project.git
-cd chatbot-project
+git clone https://github.com/Maria-cpp/chatbot.git
+cd chatbot
 Build the Docker Image:
 
 bash
@@ -42,12 +42,12 @@ Run the Docker Container:
 
 bash
 Copy code
-docker run -d -p 5000:5000 --name chatbot-container chatbot-image
+docker run -d -p 7860:7860 --name chatbot-container chatbot-image
 Usage
 Once the Docker container is up and running, you can interact with the chatbot via its API or web interface:
 
-API: Access the chatbot's API at http://localhost:5000/api/v1/chat
-Web Interface: Open a web browser and go to http://localhost:5000 to use the web interface
+API: Access the chatbot's API at http://localhost:7860/api/v1/chat
+Web Interface: Open a web browser and go to http://localhost:7860 to use the web interface
 Configuration
 You can customize the chatbot by modifying the configuration file config.yaml in the project directory. Key settings include:
 
