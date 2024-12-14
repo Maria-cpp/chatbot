@@ -1,6 +1,6 @@
 # chatbot
  
-This project involves creating and deploying a chatbot using Docker. The chatbot is built with the GPT-4 architecture and is designed to assist with various tasks and queries.
+This project involves creating and deploying a chatbot using Docker. The chatbot is built with the Gemini architecture and is designed to assist with various tasks and queries.
 
 Table of Contents
 Project Overview
@@ -46,7 +46,6 @@ docker run -d -p 7860:7860 --name chatbot-container chatbot-image
 Usage
 Once the Docker container is up and running, you can interact with the chatbot via its API or web interface:
 
-API: Access the chatbot's API at http://localhost:7860/api/v1/chat
 Web Interface: Open a web browser and go to http://localhost:7860 to use the web interface
 Configuration
 You can customize the chatbot by modifying the configuration file config.yaml in the project directory. Key settings include:
