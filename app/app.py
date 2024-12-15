@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAsd9AE90gxmyHsrziKLl_7MxTCJLWWWMQ")
+genai.configure(api_key="USE_Your_API_KEY HEre")
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 # Add a Gemini Chat history object to Streamlit session state
